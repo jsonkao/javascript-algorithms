@@ -25,7 +25,7 @@ export default class HashTable {
    * @return {number}
    */
   hash(key) {
-    // For simplicity reasons we will just use character codes sum of all characters of the key
+    // For simplicity reasons we will just use character codes (sum of all characters of the key)
     // to calculate the hash.
     //
     // But you may also use more sophisticated approaches like polynomial string hash to reduce the
